@@ -1,0 +1,28 @@
+EventMachine Sample Code
+
+All comments in the source code in Japanese
+
+(1) "An EventMachine Tutorial"
+# http://20bits.com/articles/an-eventmachine-tutorial/
+
+* echo_server.rb
+* server_example.rb
+* http_client.rb
+  => EventMachien::run
+  => EventMachine::connect
+  => (EventMachine::Connection)
+    => post_init
+    => receive_data
+    => unbind
+
+(2) "Playing with EventMachine"
+# http://everburning.com/news/playing-with-eventmachine/
+
+* timer_example.rb
+  => EventMachine::add_periodic_timer
+  => EventMachine::add_timer
+
+(3) "EventMachine: 高速でスケーラブルなEvent-Driven I/Oフレームワーク"
+# http://www.infoq.com/jp/news/2008/07/eventmachine
+
+* chat_server.rb
